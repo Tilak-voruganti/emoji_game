@@ -1,0 +1,65 @@
+.nav-bar-container {
+  background-color: #ffffff33;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-with-score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.emoji-logo {
+  width: 36px;
+  height: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-logo {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
+.scores-container {
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 18px;
+    margin-left: 24px;
+  }
+}

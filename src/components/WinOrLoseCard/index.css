@@ -1,0 +1,105 @@
+/* Write your code here. */
+.win-or-lose-card {
+  background-color: #ffffff33;
+  border: 1px solid #ffffff30;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 24px;
+  width: 85%;
+  max-width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-card {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 48px;
+  }
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .details-section {
+    align-items: flex-start;
+    margin-top: 0;
+  }
+}
+
+.game-status {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-status {
+    font-size: 40px;
+  }
+}
+
+.current-score-label {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .current-score-label {
+    font-size: 20px;
+  }
+}
+
+.current-score-value {
+  color: #6a59ff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .current-score-value {
+    font-size: 48px;
+  }
+}
+
+.play-again-button {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+}
+
+.win-or-lose-image {
+  width: 180px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-image {
+    width: 280px;
+    height: 320px;
+  }
+}
